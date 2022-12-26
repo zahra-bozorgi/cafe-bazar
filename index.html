@@ -1,0 +1,2813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Css/main.css">
+    <title>Cafe-bazar</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="navbar-brand">
+                    <img src="Image/bazaar-logo.svg" class="img-fluid">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link navbar-title">برنامه</a>
+                        <div class="nav-item-active"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">بازی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> پشتیبانی </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">سایر</a>
+                    </li>
+                </ul>
+                <div class="left-nav">
+                    <div class="search-bar">
+                        <input type="search" placeholder="جست‌وجو در بازار">
+                        <i class='fas fa-search'></i>
+                    </div>
+                    <a href="#" class="person-icon" title="ورود به بازار">
+                        <i class="fas fa-user-alt"></i>
+                    </a>
+                    <a href="#" class="download-bazar"> دانلود بازار </a>
+                    <div class="dropdown" onclick="myShow()">
+                        <a href="#" class="ellipsis-icon">
+                            <i class='fas fa-ellipsis-v'></i>
+                        </a>
+                        <div class="dropdown-content" id="myShow">
+                            <a href="#">English version</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="container">
+            <div class="box m-b">
+                <div class="box-title">
+                    <h1>برنامه ها</h1>
+                </div>
+            </div>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> برنامه‌های کاربردی </h2>
+                        <a href="#" title=" برنامه‌های کاربردی" class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title" >واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> برنامه‌های رسمی بانک‌های کشور </h2>
+                        <a href="#" title="  برنامه‌های رسمی بانک‌های کشور " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.pmb.mobile-13c4b8a7-0398-4bb1-a822-eaa2b995671a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه بانک ملت</p>
+                                    <p class="simpleApp-subTitle"> امور مالی  </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/mob.banking.android.sepah_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title"> همراه بانک سپه </p>
+                                    <p class="simpleApp-subTitle">  امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> کودکانه‌های بازار </h2>
+                        <a href="#" title="  کودکانه‌های بازار " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.outfit7.mytalkingangelafree-cb0ab2d5-a980-43bc-a936-365576066452_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title" style="direction: ltr;">My Talking Angela - آنجلای سخنگو</p>
+                                    <p class="simpleApp-subTitle">تفننی   </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.bubadu.supermarket-dde4e6fc-486d-4182-87ec-962b37b34e8c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title" style="direction: ltr;">  Supermarket Game - بازی سوپرمارکت</p>
+                                    <p class="simpleApp-subTitle">تفننی   </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> در جریان اخبار باش </h2>
+
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> برنامه‌های جدید منتخب سردبیران </h2>
+                        <a href="#" title="   برنامه‌های جدید منتخب سردبیران   " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> در حال و هوای اربعین </h2>
+                        <a href="#" title="    در حال و هوای اربعین  " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> بروزرسانی‌های منتخب سردبیران </h2>
+                        <a href="#" title="   بروزرسانی‌های منتخب سردبیران   " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> پست و استوری‌های محشر بساز </h2>
+                        <a href="#" title="   پست و استوری‌های محشر بساز   " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> ویترین برنامه‌ها </h2>
+
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a class="promo swiper-slide" href="#">
+                                <img src="Image/promo/6EDA8A58-E428-4395-9438-10EEDF7B2E6D_fa_XL.webp"
+                                    class="img-fluid">
+                            </a>
+                            <a class="promo swiper-slide" href="#">
+                                <img src="Image/promo/760D32DE-D693-46CF-A2E4-CFC9E83150CD_fa_XL.webp"
+                                    class="img-fluid">
+                            </a>
+                            <a class="promo swiper-slide" href="#">
+                                <img src="Image/promo/8C4A4A04-BFD9-4D32-8864-BCC58C02C76B_fa_XL.webp"
+                                    class="img-fluid">
+                            </a>
+                            <a class="promo swiper-slide" href="#">
+                                <img src="Image/promo/AC758AF5-98BC-426E-9F50-EC3D15774446_fa_XL.webp"
+                                    class="img-fluid">
+                            </a>
+                            <a class="promo swiper-slide" href="#">
+                                <img src="Image/promo/913E0808-7087-4FAA-9501-52EB86C5C6B4_fa_XL.webp"
+                                    class="img-fluid">
+                            </a>
+                            <a class="promo swiper-slide" href="#">
+                                <img src="Image/promo/2A3F6293-A0F0-4287-951F-F1C2BB57A13A_fa_XL.webp"
+                                    class="img-fluid">
+                            </a>
+                            <a class="promo swiper-slide" href="#">
+                                <img src="Image/promo/5CC19216-C371-4756-BFC2-EFA41F9C3B2E_fa_XL.webp"
+                                    class="img-fluid">
+                            </a>
+                            <a class="promo swiper-slide" href="#">
+                                <img src="Image/promo/84B44992-E02C-4F48-8E41-ADFA3F153901_fa_XL.webp"
+                                    class="img-fluid">
+                            </a>
+                            <a class="promo swiper-slide" href="#">
+                                <img src="Image/promo/0BD59C98-FCF3-455E-9373-8EFC8EA7FCC8_fa_XL.webp"
+                                    class="img-fluid">
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> راه رو گم نکنی </h2>
+                        <a href="#" title="    راه رو گم نکنی  " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> برنامه‌های کم حجم </h2>
+                        <a href="#" title="    برنامه‌های کم حجم  " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> هم‌نوا با نت‌های موسیقی </h2>
+                        <a href="#" title="  کودکانه‌های بازار " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> ابزارهای ضروری موبایل </h2>
+                        <a href="#" title="    ابزارهای ضروری موبایل  " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> برترین برنامه‌ها </h2>
+                        <a href="#" title="    برترین برنامه‌ها  " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> برنامه‌های پرفروش </h2>
+                        <a href="#" title="    برنامه‌های پرفروش  " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body swiper">
+                        <div class="body-content swiper-wrapper">
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.instagram.android-066cec15-f860-40d8-b0a2-3a4587cd6863_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">Instagram</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp-60d9a391-3fb4-49c7-bce9-606c564f7e32_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">واتساپ WhatsApp Messenger</p>
+                                    <p class="simpleApp-subTitle">شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.divar-b3aa0567-2cf6-4f32-a442-2d36724bea97_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">دیوار</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.sibche.aspardproject.app_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آپ (خدمات بانکی، خلافی خودرو، سجام)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.balad_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">بلد — نقشه‌ و ‌مسیریاب</p>
+                                    <p class="simpleApp-subTitle"> رفت و آمد </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.mci.ecareapp_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">همراه من (اپلیکیشن رسمی همراه اول)</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.itoll.mycarapp-f081a516-f49d-47ff-b024-c8f6a86afe5b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">آیتول (خلافی خودرو، بیمه، عوارض)</p>
+                                    <p class="simpleApp-subTitle"> امور مالی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.paxit-b7825a83-adde-4b6c-b025-bd2719a99b3b_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پاکسیت: خرید گیفت کارت بازی و برنامه</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.pindo.fletcher-b55c3443-c03a-489d-a722-17c70719cb3a_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">پیندو | خرید و فروش بدون واسطه کالا</p>
+                                    <p class="simpleApp-subTitle"> خرید </p>
+                                </div>
+                            </a>
+
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/ir.shahbaz.SHZToolBox-d47f6cbf-50e2-4fa6-b8a2-1f4c654113ac_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">جعبه ابزار</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.intsig.camscanner-33c32803-9f0f-49d0-a974-21a6e2a8e87c_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">CamScanner - PDF Scanner App</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.shatelland.namava.mobile-7882c3f4-66ae-453a-8c12-a06aa6b898b6_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">نماوا - تماشای آنلاین فیلم و سریال</p>
+                                    <p class="simpleApp-subTitle"> سرگرمی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mtni.myirancell_512x512.webp" class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">ایرانسل من</p>
+                                    <p class="simpleApp-subTitle"> ابزارها </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.whatsapp.w4b-0a59a4e9-efdd-4b51-8e3b-b44a8430adcd_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">WhatsApp Business</p>
+                                    <p class="simpleApp-subTitle"> شبکه‌های اجتماعی </p>
+                                </div>
+                            </a>
+                            <a href="#" class="simpleApp swiper-slide">
+                                <div class="simpleApp-img">
+                                    <img src="Image/com.mxtech.videoplayer.ad-fab6b94b-b105-44d6-bd07-4c88eb09a0ef_512x512.webp"
+                                        class="img-fluid">
+                                </div>
+                                <div class="simpleApp-text">
+                                    <p class="simpleApp-title">MX Player</p>
+                                    <p class="simpleApp-subTitle"> عکاسی و ویدیو </p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-b">
+                    <div class="box-header ">
+                        <h2> دسته‌بندی‌های برنامه </h2>
+                        <a href="#" title="     دسته‌بندی‌های برنامه    " class="box-link">
+                            <span>بیشتر</span>
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </div>
+                    <div class="box-body ">
+                        <div class="category-content">
+                            <a href="#" class="category">
+                                <div>
+                                    <i class="fas fa-dice"></i>
+                                    <span> سرگرمی </span>
+                                </div>
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <a href="#" class="category">
+                                <div>
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span> آموزش </span>
+                                </div>
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <a href="#" class="category">
+                                <div>
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span> خرید </span>
+                                </div>
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <a href="#" class="category">
+                                <div>
+                                    <i class="fas fa-icons"></i>
+                                    <span> شبکه‌های اجتماعی </span>
+                                </div>
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <a href="#" class="category">
+                                <div>
+                                    <i class="fas fa-video"></i>
+                                    <span> عکاسی و ویدیو </span>
+                                </div>
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <a href="#" class="category">
+                                <div>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <span> امور مالی </span>
+                                </div>
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="box m-t">
+                    <div class="box-body">
+                        <div class="collapsible-content ">
+
+                            <p>به خودتان نگاهی بیندازید، آیا برای انجام هر کاری به گوشی خود سر نمی‌زنید؟ آیا
+                                به‌دنبال <strong>دانلود برنامه‌های اندرویدی</strong> نیستید که کارهایتان را آسان‌تر
+                                کنند؟ ما در بازار <strong>اپلیکیشن‌های اندروید</strong>، برای هر موضوعی که در ذهن
+                                شماست، برنامه داریم و امکان نصب و دانلود آن‌ها را با اینترنت نیم‌بها و با سپر امنیت
+                                بازار برایتان فراهم کرده‌ایم.
+                            </p>
+
+                            <p>اپلیکیشن‌های بازار در ۲۰ دسته‌ی مختلف منظم شده‌اند که در ادامه آن‌ها را برایتان معرفی
+                                می‌کنیم. کافی است موضوع مورد علاقه‌ی خود را انتخاب کنید و از بین صدها برنامه هر
+                                دسته، بهترین و کاربردی‌ترین اپ را دانلود کنید. فراموش نکنید که حتما به نظرات و
+                                امتیازی (Rating) که کاربران به برنامه‌ها داده‌اند نیز توجه کنید تا حافظه موبایل‌تان
+                                را با اپ‌های بهتری پر کنید.
+                            </p>
+
+                            <p>&nbsp;</p>
+
+                            <h2><strong>دانلود برنامه‌های جدید اندرویدی</strong></h2>
+
+                            <p class="collapsible">در صفحه اصلی بازار می‌توانید برنامه‌های جدید منتخب سردبیران و همینطور
+                                بروزرسانی‌های
+                                منتخب را ببینید و از هیچ برنامه جدیدی جا نمانید. بازی‌های جدید نیز در صفحه بازی‌های
+                                اندرویدی بازار به‌همین ترتیب مشخص هستند.
+                            </p>
+                            <div class="content">
+                                <h2><strong>برنامه‌های شبکه‌های اجتماعی</strong></h2>
+
+                                <p>امروز برای بسیاری از ما، گذران زندگی و کار بدون شبکه‌های اجتماعی امکان‌پذیر مثل
+                                    واتساپ، اینستاگرام، تلگرام، توییتر، یوتیوب و ... نیست. هر برنامه‌ای که دوست دارید را
+                                    انتخاب و ارتباط با جهان را آغاز کنید. جدیدترین بروزرسانی این اپ‌های بسیار پرطرفدار
+                                    نیز به محض انتشار، در بازار قرار می‌گیرند و از طریق اطلاع‌رسانی‌ها (نوتیفیکیشن) شما
+                                    را مطلع می‌کنند.
+                                </p>
+
+                                <h2><strong>ابزارهای اندرویدی</strong></h2>
+
+                                <p>گوشی شما با برنامه‌های دسته‌ی ابزارهای بازار، آچار فرانسه‌ است. از ماشین حساب، زنگ،
+                                    یادآور و تقویم گرفته تا ابزارهای افزایش سرعت گوشی، قفل برنامه‌ها، افزایش عمر باتری،
+                                    ارزیابی سرعت و مصرف اینترنت، تبدیل واحدها، بارکد ساز و بارکدخوان، قطب‌نما، چراغ قوه،
+                                    ساخت نسخه‌ی پشتیبان، دفتر یادداشت، آنتی ویروس‌ها، حافظه‌ی ابری و بسیاری برنامه‌ی
+                                    پرکاربرد دیگر.
+                                </p>
+
+                                <h2><strong>اپلیکیشن‌های عکاسی و ویدیو و فیلم‌برداری</strong></h2>
+
+                                <p>اگر دنبال برنامه‌هایی هستید که از گوشی خود بهتر و بیشتر استفاده کنید، به دسته‌های
+                                    شخصی‌سازی و عکاسی و ویدیو سر بزنید. اپلیکیشن‌های تصاویر پس زمینه، قفل‌ها و برترین‌
+                                    برنامه‌های تغییر فضای گوشی را از دسته‌ی شخصی‌سازی نصب کنید. برنامه‌های ویرایش و ساخت
+                                    عکس، ساخت ویدیو و چاپ عکس را نیز از دسته‌ي عکاسی و ویدیو دانلود کنید و دنیای فیلترها
+                                    و ابزارهای تدوین را تجربه کنید.
+                                </p>
+
+                                <p>از ابزارهای شخصی‌سازی نیز غافل نشوید و گوشی خود را با آن‌ها، به سبک خود تغییر دهید.
+                                    مثلا زنگ گوشی، پس زمینه و صفحه کلید شخصی خود را دانلود کنید و با قفل فایل‌ها و
+                                    برنامه‌ها کنترل موبایل خود را به دست بگیرید.
+                                </p>
+
+                                <h2><strong>برنامه‌های امور مالی</strong></h2>
+
+                                <p>حوزه‌ی سرمایه و پول هر روز در حال تغییر و پیشرفت است. دسته‌ی امور مالی برنامه‌های
+                                    کاربردی‌ای مثل رمز پویا، روش‌های انتقال پول، همراه بانک‌ها، حسابداری شخصی تا
+                                    برنامه‌های تحلیلی بازار بورس و سرمایه‌گذاری، فروش سهام عدالت، قوانین مالی و محاسبات
+                                    حقوقی، محاسبه سود سپرده و وام را پوشش می‌دهد. همینطور با کمک برنامه‌های حسابداری
+                                    شخصی، تحلیل بازار بورس و مالی می‌توانید سرمایه‌ خود را مدیریت کنید و دخل و خرج‌تان
+                                    را محاسبه کنید.
+                                </p>
+
+                                <h2><strong>اپ‌های آموزشی</strong></h2>
+
+                                <p>آموزش مجازی این روزها حرف اول را می‌زند. اپلیکیشن‌هایی که بتوانند سریع‌ترین و
+                                    شیرین‌ترین روش یادگیری موضوعات مثل زبان انگلیسی، آشپزی، درس‌های از دبستان تا کنکور،
+                                    برنامه‌نویسی و بسیاری موضوعات دیگر را در دسترس قرار دهند، بیشترین طرفدار را دارند.
+                                    این دسته، دنیایی از اپلیکیشن‌هاست که می‌توانید با دانلود آن‌ها هر موضوعی را یاد
+                                    بگیرید. معروف‌ترین و پرطرفدارترین برنامه این دسته هم اپلیکیشن شاد مدارس است که
+                                    دانش‌آموزان علاقه زیادی به آن دارند.(!)
+                                </p>
+
+                                <h2><strong>برنامه‌های موسیقی و صداگذاری</strong></h2>
+
+                                <p>برنامه‌های اندروید موسیقی، شما را به آخرین آلبوم‌ها و آهنگ‌های روز متصل می‌کند. با
+                                    کمک این اپ‌ها می‌توانید پلی‌لیست‌ شخصی‌های خود را بسازید، روی ویدیوهای خود صدا
+                                    بگذارید و اپلیکیشن‌های تغییر صدای مختلف را ببینید.
+                                </p>
+
+                                <h2><strong>بازار کودک</strong></h2>
+
+                                <p>بازی و یادگیری و برنامه، قصه، بازی‌های شاد و سرگرم کننده و برترین اپلیکیشن‌های کودک
+                                    در دسته‌ی کودک بازار، ویژه کودکان شما است. امروز ارتباط کودکان با دنیای تکنولوژی
+                                    غیرقابل انکار است. از دسته‌ی کودک براحتی انتخاب کنید که دوست دارید کودک شما با کدام
+                                    برنامه‌‌ی اندرویدی، بازی کند و یاد بگیرد.
+                                </p>
+
+                                <p>با فعال کردن «بازار کودک» از «بازار من» می‌توانید با خیال راحت گوشی هوشمند خود را در
+                                    اختیار کودکان قرار دهید و خیالتان راحت باشد که محتواهای نامناسب برای فرزندتان نمایش
+                                    داده نمی‌شود.
+                                </p>
+
+                                <h2><strong>اپ‌های سرگرمی</strong></h2>
+
+                                <p>داشتن گوشی هوشمند در عین حال که کاربردی است، سرگرم کننده هم هست. برنامه‌های دسته‌ی
+                                    سرگرمی طیف متفاوتی از اپلیکیشن‌هایی است که می‌توانید بسته به حال و لحظه از بین آنها
+                                    انتخاب کنید؛ اهل نقاشی دیجیتال هستید؟ دوست دارید فیلم و سریال تماشا کنید؟ هر چیزی که
+                                    بخواهید را می‌توانید در این دسته‌بندی پیدا کنید.
+                                </p>
+
+                                <h2><strong>برنامه‌های ورزشی</strong></h2>
+
+                                <p>با برنامه‌های اندرویدی بازار ببینید در دنیای ورزش چه می‌گذرد. فوتبال، والیبال، لیگ
+                                    برتر و جام حذفی، المپیک و حاشیه‌ی دنیای ورزش، پخش زنده و هیاهوی بازی‌های فینال،
+                                    برنامه‌های اخبار و پخش زنده ورزشی، همه و همه در بازار موجود هستند.
+                                </p>
+
+                                <h2><strong>اپلیکیشن‌های مذهبی</strong></h2>
+
+                                <p>دسته‌ی مذهبی طیف گسترده‌ای ازبرنامه‌های کاربردی و تخصصی این حوزه را در خود جای داده
+                                    است. برنامه‌های پرکاربرد مذهبی مانند تقویم‌های اذان‌گو و اوقات شرعی و برنامه‌های
+                                    آموزش حفظ و تلاوت قرآن، قرآن کتبی و صوتی، برنامه‌های ختم قرآن و حکایت‌های مذهبی را
+                                    در دسته‌ی مذهبی به راحتی پیدا و دانلود کنید.
+                                </p>
+
+                                <h2><strong>برنامه‌های سفر</strong></h2>
+
+                                <p>بازار برنامه‌های اندروید، مقصد بی انتهایی است از اپلکیشن‌هایی که سفر کردن را
+                                    راحت‌ترمی‌کند. خرید بلیط هواپیما و قطار تا انتخاب محل اقامت و تورهای مسافرتی،
+                                    گردشگری و بوم‌گردی برنامه می‌خواهد. در این سفر برنامه‌های مسیریاب،
+                                </p>
+
+                                <p>از نقشه‌های مسیریاب نیز برای جا‌به‌جایی در شهر کمک بگیرید. با اپلیکیشن‌های تاکسی‌های
+                                    آنلاین در شهر رفت و آمد کنید. با دانلود برنامه‌های نمایش خلافی خودرو و خدمات تعمیر
+                                    خودرو، با خیال راحت بحران‌ها را مدیریت کنید.
+                                </p>
+
+                                <h2><strong>کتاب‌ها و مطبوعات اندرویدی</strong></h2>
+
+                                <p>اگر اهل کتاب‌ هستید، این دسته کتابخانه‌ای صوتی و آنلاین برای شما است. اپلیکیشن‌های
+                                    پادکست‌، نشریات انگلیسی زبان وآخرین اخبار روز در این دسته جمع شده‌اند. برنامه‌های
+                                    کتابگردی، پادکست‌ها، خرید آنلاین کتاب، اخبار رسمی روز، داستان‌ها و قصه‌ها برای
+                                    کودکان و نشریات انگلیسی زبان، همگی را می‌توانید از بازار دانلود کنید.
+                                </p>
+
+                                <h2><strong>برنامه‌های پزشکی و سلامت و تناسب اندام</strong></h2>
+
+                                <p>سلامتی و پزشکی هم در گوشی هوشمند جا دارد. برنامه‌های مراقبت از سلامتی و اطلاعات پزشکی
+                                    و گرفتن نوبت دکتر و کمک‌های اولیه یک پزشک همراه است. سلامت، برنامه‌ریزی هم می‌خواهد.
+                                    با اپلیکیشن‌های دسته‌ی تناسب اندام به راحتی برای سلامتی و بدن خود برنامه بریزید. با
+                                    دانلود برنامه‌های تغذیه و رژیم برای خود هدف گذاری کنید. راحت‌تر بخوابید، با برنامه
+                                    پیاده‌روی کنید و تمرین‌های روزانه و بدن‌سازی و ورزش خود را با کارهای روزانه‌ای مانند
+                                    خرید هفتگی و روزانه تنظیم کنید.
+                                </p>
+
+                                <h2><strong>برنامه‌های خرید اینترنتی </strong></h2>
+
+                                <p>برای خرید هم می‌توانید سراغ بازار بیایید و آنلاین مواد غذایی، گوشی، خانه و اتومبیل
+                                    بخرید. آخرین و بهترین قیمت‌ها را رصد کنید و از بین هزاران کالای موجود در سراسر ایران
+                                    انتخاب کنید.
+                                </p>
+
+                                <h2><strong>برنامه‌های آب‌ و هوا</strong></h2>
+
+                                <p>برنامه‌های آب و هوا شما را در جریانی تغییرات لحظه‌ای و اخبار روز هواشناسی قرار
+                                    می‌دهد. در عین حال می‌توانید کیفیت هوای محل زندگی خود را مداوم رصد کنید، تغییرات
+                                    زمین و آمادگی پس از حوادثی مانند زلزله و سیل نیز نیاز به آموزش دارد که تمامی این
+                                    اطلاعات در برنامه‌های این دسته در دسترس است.
+                                </p>
+
+                                <h2><strong>برنامه‌های آشپزی </strong>Android</h2>
+
+                                <p>آب و هوای دنیای آشپزی با دانلود اپلیکیشن‌های این دسته مزده‌دارتر می‌شود. برنامه‌های
+                                    آشپزی بازار برای هرسلیقه‌‌ای با هر میزان دسترسی به مواد غذایی دستور غذایی دارد.
+                                    آنلاین با گوشی اندروید هوشمند خود مواد غذایی و میوه بخرید. با دستورهای جدید، پخت و
+                                    پز کنید. با برنامه‌های آشپزی و رستوران، رستوران‌های جدید را بشناسید، غذا سفارش دهید
+                                    و رستوران‌گردی کنید.
+                                </p>
+
+                                <h2><strong>اپلیکیشن‌های سبک زندگی</strong></h2>
+
+                                <p>هر فردی در طول روز برای بهتر و راحت‌تر زندگی کردن به برنامه‌های دسته‌ی سبک زندگی نیاز
+                                    دارد. در دسته‌ی سبک زندگی می‌توانید برنامه‌های اندروید سلامت روان و خوشناسی را
+                                    دانلود کنید؛ یا سری به برنامه‌های کاربردی بزنید و هر سرویس آنلاینی که در طول روز به
+                                    آن نیاز دارید از خشکشویی تا تعمیرات خانه و طراحی داخلی را پیدا کنید.
+                                </p>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+
+        <div class="footer-top container">
+            <div class="footer-description">
+                <h3>بازار، نخستین و پرمخاطب‌ترین فروشگاه ایرانی برنامه‌ها و بازی‌های موبایلی دنیای اندروید</h3>
+                <p>صد‌ها هزار بازی ایرانی و خارجی دیتادار یا بدون دیتا را با ترافیک نیم‌بها نصب کنید و به سادگی خرید
+                    درون‌ برنامه‌ای انجام دهید. بازار مجهز به سپر امنیت است که برنامه‌ها را توسط آنتی ویروس‌ها بررسی
+                    کرده و به محض شناسایی برنامه‌ی مخرب، به کاربر اعلام می‌کند که آن برنامه را از دستگاه خود پاک کند.
+                </p>
+            </div>
+            <div class="footer-download-box">
+                <img src="Image/footer-download.webp" class="img-fluid">
+                <div>
+                    <h4>دانلود اپلیکیشن بازار</h4>
+                    <p>پرمخاطب‌ترین اپ‌استور (اندروید) فارسی‌زبانان</p>
+                    <div class="buttons">
+                        <a href="#">نسخهٔ اندروید</a>
+                        <a href="#"> نسخهٔ اندروید TV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links container">
+            <div>
+                <a href="#" class="footer-link">نصب بازار</a>
+                <a href="#" class="footer-link">بازی اندروید</a>
+                <a href="#" class="footer-link">برنامه اندروید</a>
+
+            </div>
+            <div>
+                <a href="#" class="footer-link">توسعه‌دهندگان بازار</a>
+                <a href="#" class="footer-link">فرصت‌های شغلی</a>
+                <a href="#" class="footer-link">نشان دریافت از بازار</a>
+            </div>
+            <div>
+                <a href="#" class="footer-link">شرایط استفاده</a>
+                <a href="#" class="footer-link">حریم خصوصی</a>
+                <a href="#" class="footer-link">پشتیبانی</a>
+            </div>
+            <div>
+                <a href="#" class="footer-link">بلاگ بازار</a>
+                <a href="#" class="footer-link">خبرها و بیانیه‌های بازار</a>
+                <a href="#" class="footer-link">بلاگ فنی بازار</a>
+            </div>
+            <div>
+                <a href="#" class="footer-link">تبلیغات در بازار</a>
+                <a href="#" class="footer-link">درباره ما</a>
+                <a href="#" class="footer-link">تماس با ما</a>
+            </div>
+            <div class="footer-licences">
+                <a href="#">
+                    <img src="Image/download.png">
+                </a>
+                <a href="#">
+                    <img src="Image/Samandehi.webp">
+                </a>
+            </div>
+        </div>
+        <div class="footer-seperator"></div>
+        <div class="copywriter-bar container">
+            <p>
+                تمامی حقوق این سایت متعلق به شرکت آوای همراه هوشمند هزاردستان (فروشگاه برنامه‌های موبایلی اندروید بازار)
+                است.
+            </p>
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            slidesPerView: 3,
+            direction: getDirection(),
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            on: {
+                resize: function () {
+                    swiper.changeDirection(getDirection());
+                },
+            },
+        });
+
+        function getDirection() {
+            var windowWidth = window.innerWidth;
+            var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+            return direction;
+        }
+    </script>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                    collapsible.style.color = "#212529";
+                }
+            });
+        }
+    </script>
+
+    <script>
+        function myShow() {
+            var x = document.getElementById("myShow");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
